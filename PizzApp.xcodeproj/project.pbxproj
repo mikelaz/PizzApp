@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DADFEAF81C64EBAF0014DD21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADFEAF71C64EBAF0014DD21 /* AppDelegate.swift */; };
+		DADFEAFA1C64EBAF0014DD21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADFEAF91C64EBAF0014DD21 /* ViewController.swift */; };
+		DADFEAFD1C64EBAF0014DD21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADFEAFB1C64EBAF0014DD21 /* Main.storyboard */; };
+		DADFEAFF1C64EBAF0014DD21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADFEAFE1C64EBAF0014DD21 /* Assets.xcassets */; };
+		DADFEB021C64EBAF0014DD21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADFEB001C64EBAF0014DD21 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DADFEAF41C64EBAF0014DD21 /* PizzApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADFEAF71C64EBAF0014DD21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DADFEAF91C64EBAF0014DD21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DADFEAFC1C64EBAF0014DD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DADFEAFE1C64EBAF0014DD21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DADFEB011C64EBAF0014DD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DADFEB031C64EBAF0014DD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADFEAF11C64EBAF0014DD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADFEAEB1C64EBAF0014DD21 = {
+			isa = PBXGroup;
+			children = (
+				DADFEAF61C64EBAF0014DD21 /* PizzApp */,
+				DADFEAF51C64EBAF0014DD21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADFEAF51C64EBAF0014DD21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADFEAF41C64EBAF0014DD21 /* PizzApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADFEAF61C64EBAF0014DD21 /* PizzApp */ = {
+			isa = PBXGroup;
+			children = (
+				DADFEAF71C64EBAF0014DD21 /* AppDelegate.swift */,
+				DADFEAF91C64EBAF0014DD21 /* ViewController.swift */,
+				DADFEAFB1C64EBAF0014DD21 /* Main.storyboard */,
+				DADFEAFE1C64EBAF0014DD21 /* Assets.xcassets */,
+				DADFEB001C64EBAF0014DD21 /* LaunchScreen.storyboard */,
+				DADFEB031C64EBAF0014DD21 /* Info.plist */,
+			);
+			path = PizzApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADFEAF31C64EBAF0014DD21 /* PizzApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADFEB061C64EBAF0014DD21 /* Build configuration list for PBXNativeTarget "PizzApp" */;
+			buildPhases = (
+				DADFEAF01C64EBAF0014DD21 /* Sources */,
+				DADFEAF11C64EBAF0014DD21 /* Frameworks */,
+				DADFEAF21C64EBAF0014DD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzApp;
+			productName = PizzApp;
+			productReference = DADFEAF41C64EBAF0014DD21 /* PizzApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADFEAEC1C64EBAF0014DD21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mikel Aguirre";
+				TargetAttributes = {
+					DADFEAF31C64EBAF0014DD21 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DADFEAEF1C64EBAF0014DD21 /* Build configuration list for PBXProject "PizzApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADFEAEB1C64EBAF0014DD21;
+			productRefGroup = DADFEAF51C64EBAF0014DD21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADFEAF31C64EBAF0014DD21 /* PizzApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADFEAF21C64EBAF0014DD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADFEB021C64EBAF0014DD21 /* LaunchScreen.storyboard in Resources */,
+				DADFEAFF1C64EBAF0014DD21 /* Assets.xcassets in Resources */,
+				DADFEAFD1C64EBAF0014DD21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADFEAF01C64EBAF0014DD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADFEAFA1C64EBAF0014DD21 /* ViewController.swift in Sources */,
+				DADFEAF81C64EBAF0014DD21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DADFEAFB1C64EBAF0014DD21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADFEAFC1C64EBAF0014DD21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DADFEB001C64EBAF0014DD21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADFEB011C64EBAF0014DD21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADFEB041C64EBAF0014DD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DADFEB051C64EBAF0014DD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADFEB071C64EBAF0014DD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PizzApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MAZ.PizzApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DADFEB081C64EBAF0014DD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PizzApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MAZ.PizzApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADFEAEF1C64EBAF0014DD21 /* Build configuration list for PBXProject "PizzApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADFEB041C64EBAF0014DD21 /* Debug */,
+				DADFEB051C64EBAF0014DD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADFEB061C64EBAF0014DD21 /* Build configuration list for PBXNativeTarget "PizzApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADFEB071C64EBAF0014DD21 /* Debug */,
+				DADFEB081C64EBAF0014DD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADFEAEC1C64EBAF0014DD21 /* Project object */;
+}
