@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_1645-1.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_1645.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "pizza_pizzadeliverypersonpeopleman_pizza_repartidordepizzas_person_1645-2.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

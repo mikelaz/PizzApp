@@ -12,6 +12,12 @@
 		DADFEAFD1C64EBAF0014DD21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADFEAFB1C64EBAF0014DD21 /* Main.storyboard */; };
 		DADFEAFF1C64EBAF0014DD21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADFEAFE1C64EBAF0014DD21 /* Assets.xcassets */; };
 		DADFEB021C64EBAF0014DD21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADFEB001C64EBAF0014DD21 /* LaunchScreen.storyboard */; };
+		DADFEB0A1C64EE690014DD21 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADFEB091C64EE690014DD21 /* ViewController2.swift */; };
+		DADFEB0C1C64F2D00014DD21 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADFEB0B1C64F2D00014DD21 /* Datos.swift */; };
+		DADFEB0E1C6510490014DD21 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADFEB0D1C6510490014DD21 /* ViewController3.swift */; };
+		DAE923F91C676447005EE511 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE923F81C676447005EE511 /* ViewController4.swift */; };
+		DAE923FB1C677658005EE511 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE923FA1C677658005EE511 /* ViewController5.swift */; };
+		DAE923FD1C677AD1005EE511 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE923FC1C677AD1005EE511 /* ViewController6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		DADFEAFE1C64EBAF0014DD21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DADFEB011C64EBAF0014DD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DADFEB031C64EBAF0014DD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADFEB091C64EE690014DD21 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		DADFEB0B1C64F2D00014DD21 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		DADFEB0D1C6510490014DD21 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		DAE923F81C676447005EE511 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		DAE923FA1C677658005EE511 /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		DAE923FC1C677AD1005EE511 /* ViewController6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,12 @@
 				DADFEAF71C64EBAF0014DD21 /* AppDelegate.swift */,
 				DADFEAF91C64EBAF0014DD21 /* ViewController.swift */,
 				DADFEAFB1C64EBAF0014DD21 /* Main.storyboard */,
+				DAE923FC1C677AD1005EE511 /* ViewController6.swift */,
+				DAE923FA1C677658005EE511 /* ViewController5.swift */,
+				DAE923F81C676447005EE511 /* ViewController4.swift */,
+				DADFEB0D1C6510490014DD21 /* ViewController3.swift */,
+				DADFEB0B1C64F2D00014DD21 /* Datos.swift */,
+				DADFEB091C64EE690014DD21 /* ViewController2.swift */,
 				DADFEAFE1C64EBAF0014DD21 /* Assets.xcassets */,
 				DADFEB001C64EBAF0014DD21 /* LaunchScreen.storyboard */,
 				DADFEB031C64EBAF0014DD21 /* Info.plist */,
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADFEB0E1C6510490014DD21 /* ViewController3.swift in Sources */,
+				DAE923F91C676447005EE511 /* ViewController4.swift in Sources */,
 				DADFEAFA1C64EBAF0014DD21 /* ViewController.swift in Sources */,
+				DADFEB0C1C64F2D00014DD21 /* Datos.swift in Sources */,
 				DADFEAF81C64EBAF0014DD21 /* AppDelegate.swift in Sources */,
+				DAE923FD1C677AD1005EE511 /* ViewController6.swift in Sources */,
+				DADFEB0A1C64EE690014DD21 /* ViewController2.swift in Sources */,
+				DAE923FB1C677658005EE511 /* ViewController5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +270,6 @@
 		DADFEB071C64EBAF0014DD21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PizzApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MAZ.PizzApp;
@@ -257,7 +280,6 @@
 		DADFEB081C64EBAF0014DD21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PizzApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MAZ.PizzApp;
@@ -284,6 +306,7 @@
 				DADFEB081C64EBAF0014DD21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
