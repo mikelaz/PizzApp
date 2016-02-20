@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA11218F1C78791400A1A224 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA11218D1C78791400A1A224 /* Interface.storyboard */; };
+		DA1121911C78791400A1A224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1121901C78791400A1A224 /* Assets.xcassets */; };
+		DA1121981C78791400A1A224 /* PizzApp-iWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DA1121971C78791400A1A224 /* PizzApp-iWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DA11219D1C78791400A1A224 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA11219C1C78791400A1A224 /* InterfaceController.swift */; };
+		DA11219F1C78791400A1A224 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA11219E1C78791400A1A224 /* ExtensionDelegate.swift */; };
+		DA1121A11C78791400A1A224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1121A01C78791400A1A224 /* Assets.xcassets */; };
+		DA1121A51C78791400A1A224 /* PizzApp-iWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DA11218B1C78791400A1A224 /* PizzApp-iWatch.app */; };
+		DA1121AF1C787CA000A1A224 /* InterfaceController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1121AE1C787CA000A1A224 /* InterfaceController2.swift */; };
+		DA1121B11C787DF800A1A224 /* InterfaceController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1121B01C787DF800A1A224 /* InterfaceController3.swift */; };
+		DA1121B31C787EE000A1A224 /* InterfaceController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1121B21C787EE000A1A224 /* InterfaceController4.swift */; };
+		DA1121B51C78807600A1A224 /* InterfaceController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1121B41C78807600A1A224 /* InterfaceController5.swift */; };
+		DA1121B91C788E8F00A1A224 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1121B81C788E8F00A1A224 /* Datos.swift */; };
 		DADFEAF81C64EBAF0014DD21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADFEAF71C64EBAF0014DD21 /* AppDelegate.swift */; };
 		DADFEAFA1C64EBAF0014DD21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADFEAF91C64EBAF0014DD21 /* ViewController.swift */; };
 		DADFEAFD1C64EBAF0014DD21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADFEAFB1C64EBAF0014DD21 /* Main.storyboard */; };
@@ -20,7 +32,63 @@
 		DAE923FD1C677AD1005EE511 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE923FC1C677AD1005EE511 /* ViewController6.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DA1121991C78791400A1A224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADFEAEC1C64EBAF0014DD21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1121961C78791400A1A224;
+			remoteInfo = "PizzApp-iWatch Extension";
+		};
+		DA1121A31C78791400A1A224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADFEAEC1C64EBAF0014DD21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA11218A1C78791400A1A224;
+			remoteInfo = "PizzApp-iWatch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA1121A91C78791400A1A224 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DA1121981C78791400A1A224 /* PizzApp-iWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1121AD1C78791400A1A224 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DA1121A51C78791400A1A224 /* PizzApp-iWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DA11218B1C78791400A1A224 /* PizzApp-iWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PizzApp-iWatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA11218E1C78791400A1A224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DA1121901C78791400A1A224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA1121921C78791400A1A224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1121971C78791400A1A224 /* PizzApp-iWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PizzApp-iWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA11219C1C78791400A1A224 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DA11219E1C78791400A1A224 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DA1121A01C78791400A1A224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA1121A21C78791400A1A224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1121AE1C787CA000A1A224 /* InterfaceController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController2.swift; sourceTree = "<group>"; };
+		DA1121B01C787DF800A1A224 /* InterfaceController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController3.swift; sourceTree = "<group>"; };
+		DA1121B21C787EE000A1A224 /* InterfaceController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController4.swift; sourceTree = "<group>"; };
+		DA1121B41C78807600A1A224 /* InterfaceController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController5.swift; sourceTree = "<group>"; };
+		DA1121B81C788E8F00A1A224 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 		DADFEAF41C64EBAF0014DD21 /* PizzApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADFEAF71C64EBAF0014DD21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DADFEAF91C64EBAF0014DD21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +105,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DA1121941C78791400A1A224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DADFEAF11C64EBAF0014DD21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,10 +122,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA11218C1C78791400A1A224 /* PizzApp-iWatch */ = {
+			isa = PBXGroup;
+			children = (
+				DA11218D1C78791400A1A224 /* Interface.storyboard */,
+				DA1121901C78791400A1A224 /* Assets.xcassets */,
+				DA1121921C78791400A1A224 /* Info.plist */,
+			);
+			path = "PizzApp-iWatch";
+			sourceTree = "<group>";
+		};
+		DA11219B1C78791400A1A224 /* PizzApp-iWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DA11219C1C78791400A1A224 /* InterfaceController.swift */,
+				DA1121B81C788E8F00A1A224 /* Datos.swift */,
+				DA1121AE1C787CA000A1A224 /* InterfaceController2.swift */,
+				DA1121B01C787DF800A1A224 /* InterfaceController3.swift */,
+				DA11219E1C78791400A1A224 /* ExtensionDelegate.swift */,
+				DA1121A01C78791400A1A224 /* Assets.xcassets */,
+				DA1121A21C78791400A1A224 /* Info.plist */,
+				DA1121B21C787EE000A1A224 /* InterfaceController4.swift */,
+				DA1121B41C78807600A1A224 /* InterfaceController5.swift */,
+			);
+			path = "PizzApp-iWatch Extension";
+			sourceTree = "<group>";
+		};
 		DADFEAEB1C64EBAF0014DD21 = {
 			isa = PBXGroup;
 			children = (
 				DADFEAF61C64EBAF0014DD21 /* PizzApp */,
+				DA11218C1C78791400A1A224 /* PizzApp-iWatch */,
+				DA11219B1C78791400A1A224 /* PizzApp-iWatch Extension */,
 				DADFEAF51C64EBAF0014DD21 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				DADFEAF41C64EBAF0014DD21 /* PizzApp.app */,
+				DA11218B1C78791400A1A224 /* PizzApp-iWatch.app */,
+				DA1121971C78791400A1A224 /* PizzApp-iWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +190,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DA11218A1C78791400A1A224 /* PizzApp-iWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1121AA1C78791400A1A224 /* Build configuration list for PBXNativeTarget "PizzApp-iWatch" */;
+			buildPhases = (
+				DA1121891C78791400A1A224 /* Resources */,
+				DA1121A91C78791400A1A224 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA11219A1C78791400A1A224 /* PBXTargetDependency */,
+			);
+			name = "PizzApp-iWatch";
+			productName = "PizzApp-iWatch";
+			productReference = DA11218B1C78791400A1A224 /* PizzApp-iWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DA1121961C78791400A1A224 /* PizzApp-iWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1121A61C78791400A1A224 /* Build configuration list for PBXNativeTarget "PizzApp-iWatch Extension" */;
+			buildPhases = (
+				DA1121931C78791400A1A224 /* Sources */,
+				DA1121941C78791400A1A224 /* Frameworks */,
+				DA1121951C78791400A1A224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PizzApp-iWatch Extension";
+			productName = "PizzApp-iWatch Extension";
+			productReference = DA1121971C78791400A1A224 /* PizzApp-iWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		DADFEAF31C64EBAF0014DD21 /* PizzApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DADFEB061C64EBAF0014DD21 /* Build configuration list for PBXNativeTarget "PizzApp" */;
@@ -92,10 +231,12 @@
 				DADFEAF01C64EBAF0014DD21 /* Sources */,
 				DADFEAF11C64EBAF0014DD21 /* Frameworks */,
 				DADFEAF21C64EBAF0014DD21 /* Resources */,
+				DA1121AD1C78791400A1A224 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DA1121A41C78791400A1A224 /* PBXTargetDependency */,
 			);
 			name = PizzApp;
 			productName = PizzApp;
@@ -112,6 +253,12 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Mikel Aguirre";
 				TargetAttributes = {
+					DA11218A1C78791400A1A224 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					DA1121961C78791400A1A224 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					DADFEAF31C64EBAF0014DD21 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -131,11 +278,30 @@
 			projectRoot = "";
 			targets = (
 				DADFEAF31C64EBAF0014DD21 /* PizzApp */,
+				DA11218A1C78791400A1A224 /* PizzApp-iWatch */,
+				DA1121961C78791400A1A224 /* PizzApp-iWatch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DA1121891C78791400A1A224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1121911C78791400A1A224 /* Assets.xcassets in Resources */,
+				DA11218F1C78791400A1A224 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1121951C78791400A1A224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1121A11C78791400A1A224 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DADFEAF21C64EBAF0014DD21 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,6 +315,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DA1121931C78791400A1A224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA11219F1C78791400A1A224 /* ExtensionDelegate.swift in Sources */,
+				DA1121B91C788E8F00A1A224 /* Datos.swift in Sources */,
+				DA1121B11C787DF800A1A224 /* InterfaceController3.swift in Sources */,
+				DA11219D1C78791400A1A224 /* InterfaceController.swift in Sources */,
+				DA1121AF1C787CA000A1A224 /* InterfaceController2.swift in Sources */,
+				DA1121B31C787EE000A1A224 /* InterfaceController4.swift in Sources */,
+				DA1121B51C78807600A1A224 /* InterfaceController5.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DADFEAF01C64EBAF0014DD21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,7 +346,28 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DA11219A1C78791400A1A224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1121961C78791400A1A224 /* PizzApp-iWatch Extension */;
+			targetProxy = DA1121991C78791400A1A224 /* PBXContainerItemProxy */;
+		};
+		DA1121A41C78791400A1A224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA11218A1C78791400A1A224 /* PizzApp-iWatch */;
+			targetProxy = DA1121A31C78791400A1A224 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		DA11218D1C78791400A1A224 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA11218E1C78791400A1A224 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		DADFEAFB1C64EBAF0014DD21 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -186,6 +387,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DA1121A71C78791400A1A224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PizzApp-iWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MAZ.PizzApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		DA1121A81C78791400A1A224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PizzApp-iWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MAZ.PizzApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		DA1121AB1C78791400A1A224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PizzApp_iWatch_Extension;
+				INFOPLIST_FILE = "PizzApp-iWatch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MAZ.PizzApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		DA1121AC1C78791400A1A224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PizzApp_iWatch_Extension;
+				INFOPLIST_FILE = "PizzApp-iWatch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MAZ.PizzApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
 		DADFEB041C64EBAF0014DD21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -290,6 +551,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DA1121A61C78791400A1A224 /* Build configuration list for PBXNativeTarget "PizzApp-iWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1121A71C78791400A1A224 /* Debug */,
+				DA1121A81C78791400A1A224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA1121AA1C78791400A1A224 /* Build configuration list for PBXNativeTarget "PizzApp-iWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1121AB1C78791400A1A224 /* Debug */,
+				DA1121AC1C78791400A1A224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DADFEAEF1C64EBAF0014DD21 /* Build configuration list for PBXProject "PizzApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
