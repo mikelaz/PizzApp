@@ -11,14 +11,25 @@ import Foundation
 
 
 class InterfaceController2: WKInterfaceController {
-
-    @IBOutlet var tamañoSel: WKInterfaceLabel!
+    
+    @IBOutlet var selMasa: WKInterfacePicker!
+    let pizza = Pizza()
+    var configuracion = Pedido ()
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
-        let configuracion = context as! Pedido
-        tamañoSel.setText(String(configuracion.tamañoSeleccionado))
+        configuracion = context as! Pedido
+        
+        let pickerItems : [WKPickerItem] = pizza.tipoDeMasa.map {
+            let pickerItem = WKPickerItem()
+            //pickerItem.caption = $0.0
+            pickerItem.title = $0
+            return pickerItem
+        }
+        selMasa.setItems(pickerItems)
+
     }
 
     override func willActivate() {
@@ -29,6 +40,15 @@ class InterfaceController2: WKInterfaceController {
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
+    }
+    
+    @IBAction func SelecMasa(value: Int) {
+        configuracion.masaSeleccionada = value
+        print("\(configuracion.tamañoSeleccionado), \(configuracion.masaSeleccionada)")
+    }
+    
+    @IBAction func Avanzar() {
+        pushControllerWithName("IntQueso", context: configuracion)
     }
 
 }

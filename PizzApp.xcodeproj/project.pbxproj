@@ -19,6 +19,7 @@
 		DA1121B31C787EE000A1A224 /* InterfaceController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1121B21C787EE000A1A224 /* InterfaceController4.swift */; };
 		DA1121B51C78807600A1A224 /* InterfaceController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1121B41C78807600A1A224 /* InterfaceController5.swift */; };
 		DA1121B91C788E8F00A1A224 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1121B81C788E8F00A1A224 /* Datos.swift */; };
+		DAD8C9651C79B0F50006A295 /* MyRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD8C9641C79B0F50006A295 /* MyRowController.swift */; };
 		DADFEAF81C64EBAF0014DD21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADFEAF71C64EBAF0014DD21 /* AppDelegate.swift */; };
 		DADFEAFA1C64EBAF0014DD21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADFEAF91C64EBAF0014DD21 /* ViewController.swift */; };
 		DADFEAFD1C64EBAF0014DD21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADFEAFB1C64EBAF0014DD21 /* Main.storyboard */; };
@@ -89,6 +90,7 @@
 		DA1121B21C787EE000A1A224 /* InterfaceController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController4.swift; sourceTree = "<group>"; };
 		DA1121B41C78807600A1A224 /* InterfaceController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController5.swift; sourceTree = "<group>"; };
 		DA1121B81C788E8F00A1A224 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		DAD8C9641C79B0F50006A295 /* MyRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRowController.swift; sourceTree = "<group>"; };
 		DADFEAF41C64EBAF0014DD21 /* PizzApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADFEAF71C64EBAF0014DD21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DADFEAF91C64EBAF0014DD21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				DA11219C1C78791400A1A224 /* InterfaceController.swift */,
+				DAD8C9641C79B0F50006A295 /* MyRowController.swift */,
 				DA1121B81C788E8F00A1A224 /* Datos.swift */,
 				DA1121AE1C787CA000A1A224 /* InterfaceController2.swift */,
 				DA1121B01C787DF800A1A224 /* InterfaceController3.swift */,
@@ -321,6 +324,7 @@
 			files = (
 				DA11219F1C78791400A1A224 /* ExtensionDelegate.swift in Sources */,
 				DA1121B91C788E8F00A1A224 /* Datos.swift in Sources */,
+				DAD8C9651C79B0F50006A295 /* MyRowController.swift in Sources */,
 				DA1121B11C787DF800A1A224 /* InterfaceController3.swift in Sources */,
 				DA11219D1C78791400A1A224 /* InterfaceController.swift in Sources */,
 				DA1121AF1C787CA000A1A224 /* InterfaceController2.swift in Sources */,
@@ -558,6 +562,7 @@
 				DA1121A81C78791400A1A224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA1121AA1C78791400A1A224 /* Build configuration list for PBXNativeTarget "PizzApp-iWatch" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +571,7 @@
 				DA1121AC1C78791400A1A224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DADFEAEF1C64EBAF0014DD21 /* Build configuration list for PBXProject "PizzApp" */ = {
 			isa = XCConfigurationList;

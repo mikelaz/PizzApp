@@ -18,7 +18,7 @@ class Pizza: NSObject {
     func devuelveIngredienteSeleccionado(ingrediente :Int)->String{
     
         if ingrediente == -1{
-            return "No seleccionado"
+            return "No selec."
         }else{
             return self.tipoDeIngredientes[ingrediente]
         }
@@ -30,11 +30,7 @@ class Pedido: NSObject {
     var tamañoSeleccionado : Int = 0
     var masaSeleccionada : Int = 0
     var quesoSeleccionado : Int = 0
-    var ingrediente1 :Int = -1
-    var ingrediente2 :Int = -1
-    var ingrediente3 :Int = -1
-    var ingrediente4 :Int = -1
-    var ingrediente5 :Int = -1
+    var ingredientes :[Int] = [-1,-1,-1,-1,-1]
     
 }
 
