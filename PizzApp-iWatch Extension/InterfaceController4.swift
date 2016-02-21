@@ -90,7 +90,23 @@ class InterfaceController4: WKInterfaceController {
                 indiceConfiguracion++
             }
         }
-        pushControllerWithName("IntResumen", context: configuracion)
+        if indiceConfiguracion == 0 {
+            lanzarAlerta()
+        }else{
+            pushControllerWithName("IntResumen", context: configuracion)
+        }
+        
+        
+    }
+    
+    func lanzarAlerta(){
+        
+        let h0 = { print("Alerta")}
+        
+        let action1 = WKAlertAction(title: "OK", style: .Default, handler: h0)
+        
+        presentAlertControllerWithTitle("", message: "Seleccione un Ingrediente", preferredStyle: .Alert, actions: [action1])
+        
         
     }
     
